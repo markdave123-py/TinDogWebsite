@@ -1,0 +1,168 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    margin: 0px;
+}
+#tindog {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-bottom: 100px;
+    height: 600px;
+    overflow: hidden;
+}
+.align1 {
+    list-style: none;
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    position: relative;
+    left: 75%;
+    top: -100px;
+    margin-left: 10px;
+    padding: 0 0 4.5rem;
+}
+#Tindog {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.7rem;
+    display: flex;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.iphone-img {
+    width: 25%;
+    position: relative;
+    right: -50%;
+    top: -250px;
+}
+
+.rotate-25 {
+    transform: rotate(25deg);
+}
+.top {
+    position: relative;
+    top: -100px;
+}
+#easy {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.easy1 {
+    padding: 5px;
+}
+.list {
+    padding: 0 18px;
+}
+.a {
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.easy1 {
+    position: absolute;
+    left: 600px;
+    top: 180px;
+}
+.easy3 {
+    position: absolute;
+    right: 500px;
+    top: 180px;
+}
+.button1 {
+    background-color: black;
+    color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-right: 23px;
+    margin-left: 23px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+#second {
+    background-color: #ef8172;
+    height: 900px;
+}
+.dog_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    right: -1250px;
+    bottom: -300px;
+}
+.logos {
+    text-align: center;
+    padding-top: 350px;
+}
+#new_york {
+    text-align: center;
+    position: relative;
+    bottom: -165px;
+    right: -185px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+.second_top {
+    font-size: 2.1rem;
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+}
+#dog_needs {
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 100px;
+}
+#price {
+    text-align: center;
+}
+.bigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.card {
+    border: 2px ridge rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+    height: 350px;
+}
+.card-header {
+    border-bottom: 1.5px ridge rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: -24px;
+}
+#third {
+    background-color: #ff4c68;
+    text-align: center;
+    height: 400px;
+    padding-top: -50px;
+}
+.true {
+    color: #fff;
+}
+.down {
+    position: relative;
+    top: 300px;
+}
