@@ -1,0 +1,263 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    margin: 0%;
+}
+#tindog {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 300px;
+    overflow: hidden;
+    width: auto;
+
+
+}
+.form{
+    text-align: center;
+    margin-top: 55px;
+}
+#subs{
+    color: #ff4c68;
+    font-size: 1.8rem;
+}
+
+#describe{
+    width: 25%;
+    height: 45px;
+    border-radius: 30px;
+}
+#describe1{
+    width: 25%;
+    height: 45px;
+    border-radius: 30px;
+}
+.logos{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    
+}
+.logo{
+    width: 180px;
+}
+.align1 {
+    list-style: none;
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+    bottom: 130px;
+    margin-left: 10px;
+    padding: 0 0 4.5rem;
+}
+.Tindog {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.7rem;
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.iphone-img {
+    width: 24.5%;
+    position: relative;
+    left: 50%;
+    bottom: 370px;
+}
+
+.rotate-25 {
+    transform: rotate(25deg);
+}
+.top {
+    position: relative;
+    bottom: 160px;
+    left: 100px;
+}
+#easy {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+
+}
+.easy{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.dogtext{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 75px;
+}
+.list {
+    padding: 0 18px;
+
+}
+.a {
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+.a:hover{
+    color: #fff;
+}
+.button1 {
+    background-color: black;
+    color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-right: 23px;
+    margin-left: 23px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.button2{
+    background-color: #ff4c68;
+    color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-right: 23px;
+    margin-left: 23px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#second{
+    height: 500px;
+    background-color: #ef8172;
+}
+.second_top{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+#new_york {
+    font-size: 0.86rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-style: italic;
+    position: relative;
+    top: 22px;
+
+}
+.dog_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 90px;
+}
+#dog_needs {
+    text-align: center;
+    font-size: 2.1rem;
+    padding-top: 100px;
+}
+#price {
+    text-align: center;
+}
+.bigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.card {
+    border: 2px ridge rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+    height: 310px;
+}
+.card-header {
+    border-bottom: 1.5px ridge rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-top: -24px;
+}
+#third {
+    background-color: #ff4c68;
+    text-align: center;
+    height: 250px;
+    
+}
+.down{
+    position: relative;
+    top: 100px;
+}
+.true {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 100px;
+    position: relative;
+    top: 60px;
+}
+.icons{
+    color: #ef8172;
+    font-size: 2.5rem;
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.social{
+    text-align: center;
+    margin-top: 50px;
+}
+.spanSpace{
+    font-size: 50%;
+
+}
+
+.hamburger{
+    display: block;
+    cursor: pointer;
+}
+.bar{
+    display: none;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+}
+@media(max-width:760px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active.bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active.bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        
+    }
+    .hamburger.active.bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        
+    }  
+}
